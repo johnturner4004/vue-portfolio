@@ -1,30 +1,44 @@
 <template>
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <NameCard />
+  <nav>
+    <router-link to="/"><span class="nav__name">John Turner</span></router-link>
+    <router-link to="/work-history"><span class="nav__link">Work History</span></router-link>
+  </nav>
+  <router-view />
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-import NameCard from './components/NameCard.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
-    NameCard
   }
 }
 </script>
 
 <style>
-#app {
+body {
   font-family: 'Roboto', sans-serif; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
   box-sizing: border-box;
+}
+
+.nav__name {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  padding-right: 0.9375rem;
+}
+
+.nav__link {
+  padding: 0 0.9375rem;
+  border-left: 1px solid #444;
+  font-size: 1.5rem;
+  margin: 0.625rem 0;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 p, h1, h2, h3, h4, h5, h6 {

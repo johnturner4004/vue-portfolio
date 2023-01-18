@@ -17,6 +17,7 @@ export default {
 <style scoped>
 .name-card {
   padding: 3.125rem;
+  text-align: center;
 }
 
 .name-card__border {
