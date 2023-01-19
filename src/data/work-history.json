@@ -1,0 +1,146 @@
+{
+  "work_history": [
+    {
+      "company": "Media Junction",
+      "start_date": "10/2021",
+      "end_date": "present",
+      "title": "Full Stack Engineer",
+      "description": [
+        "Developed webpage templates in HubSpot for clients using HubL, HTML, SCSS, CSS, JavaScript, and jQuery",
+        "Integrated data from other APIs into HubSpot",
+        "Met with clients to discuss their specific needs and what solutions I could develop for them"
+      ]
+    },
+    {
+      "company": "Prime Digital Academy",
+      "start_date": "02/2021",
+      "end_date": "07/2021",
+      "title": "Full Stack Engineer (student)",
+      "project": [
+        {
+          "name": "Solo Project: Team zero Gaming app",
+          "description": [
+            "App where members and fans of the Team zero Gaming esports team can schedule events and play times, confirm whether of not they will be playing, and see a list of who all is playing. A player who added an event or play time can also edit or delete that event.",
+            "Technologies used Material-Ui, React, JavaScript, HTML, Redux, Express, Node.js, PostgreSQL"
+          ]
+        },
+        {
+          "name": "Group Project: Our Economic Lives",
+          "description": [
+            "The goal of this project is to help individuals either advance further in their chosen career path, or get started working towards a new path. The central element of the app is their industry pyramid which is made up of various tiers. Each tier is composed of building block that will have a description, some examples, and a place for them to enter personal examples of how they possess that trait.",
+            "My primary role in this project was making the pyramid and linking it to the data in the database. When a user selects a tier, the user is then presented with a set of links for each building block in that tier. When they select a building block it will take them to blocks page and display any info they have already input.",
+            "Technologies used Material-Ui, React, JavaScript, HTML, Redux, Express, Node.js, PostgreSQL"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Self Employed",
+      "start_date": "04/2019",
+      "end_date": "02/2021",
+      "title": "Independent Contractor",
+      "description": [
+        "Worked primarily for Uber and Lyft",
+        "Prioritized passenger satisfaction and maintained an average rating of 4.93 out of five stars",
+        "Managed business expenses and taxes to ensure profitability"
+      ]
+    },
+    {
+      "company": "Walmart",
+      "start_date": "06/2018",
+      "end_date": "04/2019",
+      "title": "Ecommerce Department Manager",
+      "description": [
+        "Led a team of personal shoppers who filled customer orders",
+        "Enforced deadlines to ensure customer orders were done on schedule",
+        "Followed up with customer surveys to ensure customers were satisfied with our service "
+      ]
+    },
+    {
+      "company": "Teaching Temps",
+      "start_date": "11/2017",
+      "end_date": "05/2018",
+      "title": "Licensed Teacher",
+      "description": [
+        "Worked flexible schedule to meet client needs at various schools throughout the Twin Cities area",
+        "Followed the lesson plan left by the absent teacher to meet education goals for the day"
+      ]
+    },
+    {
+      "company": "Kwik Trip",
+      "start_date": "08/2016",
+      "end_date": "04/2019",
+      "title": "Assistant Store Leader",
+      "description": [
+        "Managed store expenses, waste, shrink, and profit to ensure we met sales goals",
+        "Met with other store leaders to discuss the needs of the store",
+        "Hired and trained new employees",
+        "Met with vendors to check in merchandise and discuss overstock or out-of-stock opportunities to ensure the product was available for customers"
+      ]
+    },
+    {
+      "company": "Walmart",
+      "start_date": "09/2010",
+      "end_date": "07/2016",
+      "title": "Assistant Manager",
+      "description": [
+        "Worked several positions starting as a part-time Auto Care Center service writer up to a salaried assistant manager",
+        "Led diverse groups of people in multiple areas of the stores",
+        "Motivated associates to meet in-stock goals while continuing to provide good customer service",
+        "Number 1 store for T Mobile sales in the second quarter of 2013 out of all T Mobile"
+      ]
+    },
+    {
+      "company": "First Baptist Church and School",
+      "start_date": "08/2009",
+      "end_date": "07/2011",
+      "title": "Teacher",
+      "description": [
+        "Taught middle school and high school math, science, Bible, and keyboarding",
+        "Tutored students in study hall and after school on a volunteer basis"
+      ]
+    },
+    {
+      "company": "Walmart",
+      "start_date": "05/2007",
+      "end_date": "07/2009",
+      "title": "Automotive Sales Associate",
+      "description": [
+        "Wrote up customer work orders and communicated customer needs to the service technicians",
+        "Checked customer vehicle to ensure the customer was getting the service they needed"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "Prime Digital Academy",
+      "start_date": "02/2021",
+      "end_date": "07/2021",
+      "course": "Full Stack Engineering",
+      "description": [
+        "Developed apps using React, JavaScript, HTML, CSS, Axios, Express, Node, PostgreSQL, and Python",
+        "Participated in public speaking practice",
+        "Attended courses on inclusion, diversity, and equality",
+        "Developed an app for a client"
+      ]
+    },
+    {
+      "name": "West Coast Baptist College",
+      "start_date": "08/2005",
+      "end_date": "05/2009",
+      "course": "Secondary Education Math and Science",
+      "description": [
+        "Earned Bachelor's degree in 2009"
+      ]
+    },
+    {
+      "name": "Williamsport Christian School",
+      "start_date": "08/1998",
+      "end_date": "05/2005",
+      "course": "Diploma",
+      "description": [
+        "Class Valedictorian"
+      ]
+    }
+  ]
+}
