@@ -81,9 +81,12 @@ export default {
 .work-history__list {
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .work-history__job {
   list-style: none;
+  width: 50%;
 }
 </style>

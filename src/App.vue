@@ -2,6 +2,7 @@
   <nav>
     <router-link to="/"><span class="nav__name">John Turner</span></router-link>
     <router-link to="/work-history"><span class="nav__link">Work History</span></router-link>
+    <router-link to="/education"><span class="nav__link">Education</span></router-link>
   </nav>
   <router-view />
 </template>

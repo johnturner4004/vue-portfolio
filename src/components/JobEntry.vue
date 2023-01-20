@@ -25,8 +25,8 @@
       'job'
     ],
     setup(props) {
-      start_date = moment(props.job.start_date, 'MM/YYYY').format("MMMM YYYY");
-      end_date = props.job.end_date === 'present' ? 'Present' : moment(props.job.end_date, 'MM/YYYY').format("MMMM YYYY");
+      start_date = moment(props.job.start_date, 'MM/YYYY').format("MMM YYYY");
+      end_date = props.job.end_date === 'present' ? 'Present' : moment(props.job.end_date, 'MM/YYYY').format("MMM YYYY");
     },
     data() {
       return {
