@@ -21,7 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  padding-top: 3.125rem;
+  margin: 0;
 }
 
 nav {

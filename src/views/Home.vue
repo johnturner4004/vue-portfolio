@@ -28,5 +28,6 @@ export default {
 <style scoped>
 .home__row {
   display: flex;
+  padding-top: 3.125rem;
 }
 </style>
