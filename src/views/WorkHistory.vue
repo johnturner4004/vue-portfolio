@@ -88,5 +88,6 @@ export default {
 .work-history__job {
   list-style: none;
   width: 50%;
+  padding-bottom: 1rem;
 }
 </style>

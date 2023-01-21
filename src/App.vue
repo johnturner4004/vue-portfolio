@@ -3,6 +3,7 @@
     <router-link to="/"><span class="nav__name">John Turner</span></router-link>
     <router-link to="/work-history"><span class="nav__link">Work History</span></router-link>
     <router-link to="/education"><span class="nav__link">Education</span></router-link>
+    <router-link to="/about"><span class="nav__link">About</span></router-link>
   </nav>
   <router-view />
 </template>
@@ -18,7 +19,7 @@ export default {
 
 <style>
 body {
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
@@ -38,17 +39,28 @@ nav {
   padding-top: 0.25rem;
 }
 
+.nav__name,
+.nav__link {
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: inset 0 0 10px 10px #fff;
+  color: #000;
+}
+
+.nav__name:hover,
+.nav__link:hover {
+  background-color: #44444480;
+}
+
 .nav__name {
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 700;
   padding-right: 0.9375rem;
-  color: #000;
 }
 
 .nav__link {
   padding: 0 0.9375rem;
-  color: #000;
   border-left: 1px solid #444;
   font-size: 1.5rem;
   margin: 0.625rem 0;
@@ -58,7 +70,13 @@ nav a {
   text-decoration: none;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
