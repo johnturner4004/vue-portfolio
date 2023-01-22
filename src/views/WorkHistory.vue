@@ -40,6 +40,14 @@ export default {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .work-history {
+    height: calc(100vh - 3.125rem);
+    width: calc(100vw - 3.125rem);
+    padding: 1.563rem;
+  }
+}
+
 .work-history__cursor {
   animation-name: cursor;
   animation-duration: 1s;
@@ -85,9 +93,21 @@ export default {
   flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+  .work-history__list {
+    flex-direction: column;
+  }
+}
+
 .work-history__job {
   list-style: none;
   width: 50%;
   padding-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .work-history__job {
+    width: 100%;
+  }
 }
 </style>
