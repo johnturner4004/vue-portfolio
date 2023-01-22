@@ -43,12 +43,11 @@ export default {
 
 <style>
 .skill {
-  width: 50vw;
 }
 
 @media (max-width: 768px) {
   .skill {
-    width: 100%
+    width: 100%;
   }
 }
 

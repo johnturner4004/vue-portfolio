@@ -26,7 +26,16 @@
   box-shadow: 0.3125rem 0.3125rem 0.9375rem #000;
   margin: 1.875rem 1.875rem 1.875rem 5.625rem;
   padding: 1.875rem 1.875rem 3.75rem 1.875rem;
-  width: 450px;
+  max-width: 450px;
+  width: 50vw;
+  position: relative;
+  background-color: #fff;
+}
+
+@media (max-width) {
+  .info-card {
+    width: 100vw;
+  }
 }
 
 .info-card__info {
@@ -42,17 +51,17 @@
 .info-card__holes {
   border-top: 1.875rem solid transparent;
   border-left: 450px solid transparent;
-  position: relative;
-  width: 450px;
+  max-width: 450px;
   padding-top: 1.875rem;
   content: "";
+  width: 50vw;
 }
 
 .info-card__holes:before,
 .info-card__holes:after {
   content: "";
   position: absolute;
-  bottom: -1.25rem;
+  bottom: 1.25rem;
   box-shadow: inset 0.3125rem 0.3125rem 0.9375rem #000;
   background-color: #fff;
   height: 1.875rem;
@@ -61,10 +70,10 @@
 }
 
 .info-card__holes:before {
-  left: -292.5px;
+  left: 35%;
 }
 
 .info-card__holes:after {
-  right: 157.5px;
+  right: 35%;
 }
 </style>

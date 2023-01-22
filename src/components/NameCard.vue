@@ -25,17 +25,25 @@ export default {
     display: flex;
     justify-content: center;
     width: 100%;
+    padding: 0;
   }
 }
 
 .name-card__border {
   background-color: #0000ff;
   color: #fff;
-  width: 450px;
+  max-width: 450px;
+  width: 50vw;
   border-radius: 1.25rem;
   padding: .625rem;
   box-shadow: .3rem .3rem 1rem #000;
   transform: rotate(-15deg);
+}
+
+@media (max-width: 768px) {
+  .name-card__border {
+    width: 100vw;
+  }
 }
 .name-card__line-1 {
   font-size: 3.125rem;
