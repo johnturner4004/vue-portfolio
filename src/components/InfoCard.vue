@@ -26,6 +26,7 @@
   box-shadow: 0.3125rem 0.3125rem 0.9375rem #000;
   margin: 1.875rem 1.875rem 1.875rem 5.625rem;
   padding: 1.875rem 1.875rem 3.75rem 1.875rem;
+  width: 450px;
 }
 
 .info-card__info {

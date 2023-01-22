@@ -1,4 +1,5 @@
 <template>
+  <span class="material-symbols-outlined">menu</span>
   <nav>
     <router-link to="/"><span class="nav__name">John Turner</span></router-link>
     <router-link to="/work-history"><span class="nav__link">Work History</span></router-link>
@@ -26,6 +27,23 @@ body {
   margin: 0;
 }
 
+.material-symbols-outlined {
+  padding: 0.25rem;
+  box-shadow: 0 5px 10px #222;
+  border-radius: 0.25rem;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 4;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .material-symbols-outlined {
+    display: none;
+  }
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -33,10 +51,16 @@ nav {
   height: 3.125rem;
   z-index: 3;
   background-color: #fff;
-  width: 100vw;
   box-shadow: 0 5px 10px #222;
   padding-left: 3.125rem;
   padding-top: 0.25rem;
+  width: 100vw;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
 }
 
 .nav__name,

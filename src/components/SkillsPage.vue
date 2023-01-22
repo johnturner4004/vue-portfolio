@@ -46,6 +46,12 @@ export default {
   width: 50vw;
 }
 
+@media (max-width: 768px) {
+  .skill {
+    width: 100%
+  }
+}
+
 .skill__page {
   background-color: #eef;
   box-shadow: 0.3125rem 0.3125rem 0.9375rem #000;
@@ -87,5 +93,11 @@ export default {
   margin-right: -3.225rem;
   width: 50vw;
   height: 1px;
+}
+
+@media(max-width: 768px) {
+  .skill__line {
+    width: 100vw;
+  }
 }
 </style>

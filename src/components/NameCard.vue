@@ -20,6 +20,14 @@ export default {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .name-card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
 .name-card__border {
   background-color: #0000ff;
   color: #fff;
@@ -29,7 +37,6 @@ export default {
   box-shadow: .3rem .3rem 1rem #000;
   transform: rotate(-15deg);
 }
-
 .name-card__line-1 {
   font-size: 3.125rem;
   font-weight: 700;

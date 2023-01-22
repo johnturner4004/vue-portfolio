@@ -30,4 +30,11 @@ export default {
   display: flex;
   padding-top: 3.125rem;
 }
+
+@media (max-width: 768px) {
+  .home__row {
+    flex-direction: column;
+    width: 100vw;
+  }
+}
 </style>
