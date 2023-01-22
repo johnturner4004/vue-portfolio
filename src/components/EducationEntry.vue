@@ -36,9 +36,22 @@
   font-size: 2rem;
 }
 
+@media (max-width: 768px) {
+  .school__name {
+    font-size: 1.5rem;
+  }
+}
+
 .school__date,
 .school__course {
   font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .school__date,
+  .school__course {
+    font-size: 1.25rem;
+  }
 }
 
 .school__list {
@@ -50,5 +63,11 @@
   font-size: 1.25rem;
   margin-left: 1.5rem;
   margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .school__description {
+    font-size: 1rem;
+  }
 }
 </style>

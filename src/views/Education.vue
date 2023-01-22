@@ -43,6 +43,12 @@ export default {
   font-size: 3.75rem;
 }
 
+@media (max-width: 768px) {
+  .education-page__title {
+    font-size: 1.875rem;
+  }
+}
+
 .education-page__list {
   padding: 0;
   margin: 0;
@@ -50,9 +56,21 @@ export default {
   flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+  .education-page__list {
+    flex-direction: column;
+  }
+}
+
 .education-page__school {
   list-style: none;
   width: 50%;
   padding-bottom: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .education-page__school {
+      width: 100%;
+    }
   }
 </style>
