@@ -1,6 +1,6 @@
 <template>
-  <span class="material-symbols-outlined">menu</span>
-  <nav>
+  <span @click="handleClick" class="material-symbols-outlined nav__button">menu</span>
+  <nav :class="{'open-mobile': showMobile, 'close-mobile': !showMobile}">
     <router-link to="/"><span class="nav__name">John Turner</span></router-link>
     <router-link to="/work-history"><span class="nav__link">Work History</span></router-link>
     <router-link to="/education"><span class="nav__link">Education</span></router-link>
@@ -9,12 +9,12 @@
   <router-view />
 </template>
 
-<script>
+<script setup>
+import { ref } from 'vue';
+const showMobile = ref(false);
 
-export default {
-  name: 'App',
-  components: {
-  }
+function handleClick() {
+  showMobile.value = !showMobile.value;
 }
 </script>
 
@@ -27,23 +27,6 @@ body {
   margin: 0;
 }
 
-.material-symbols-outlined {
-  padding: 0.25rem;
-  box-shadow: 0 5px 10px #222;
-  border-radius: 0.25rem;
-  position: fixed;
-  top: 1rem;
-  left: 1rem;
-  z-index: 4;
-  background-color: #fff;
-}
-
-@media (min-width: 768px) {
-  .material-symbols-outlined {
-    display: none;
-  }
-}
-
 nav {
   position: fixed;
   top: 0;
@@ -51,14 +34,44 @@ nav {
   height: 3.125rem;
   z-index: 3;
   background-color: #fff;
+  width: 100vw;
   box-shadow: 0 5px 10px #222;
   padding-left: 3.125rem;
   padding-top: 0.25rem;
-  width: 100vw;
+  transition: all 1s ease-in-out;
 }
 
 @media (max-width: 768px) {
-  nav {
+  .close-mobile {
+    opacity: 0;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .open-mobile {
+    opacity: 1;
+    height: 100%;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 1rem;
+  }
+}
+
+.nav__button {
+  position: absolute;
+  z-index: 4;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.5rem;
+  box-shadow: 0 5px 10px #222;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .nav__button {
     display: none;
   }
 }

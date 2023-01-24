@@ -42,9 +42,6 @@ export default {
 </script>
 
 <style>
-.skill {
-}
-
 @media (max-width: 768px) {
   .skill {
     width: 100%;
