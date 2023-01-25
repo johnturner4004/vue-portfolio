@@ -34,11 +34,11 @@ nav {
   height: 3.125rem;
   z-index: 3;
   background-color: #fff;
-  width: 100vw;
+  width: 100%;
   box-shadow: 0 5px 10px #222;
   padding-left: 3.125rem;
   padding-top: 0.25rem;
-  transition: all 1s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 768px) {
@@ -47,6 +47,7 @@ nav {
     height: fit-content;
     display: flex;
     flex-direction: column;
+    padding-top: 4rem;
   }
 
   .open-mobile {
@@ -61,7 +62,8 @@ nav {
 }
 
 .nav__button {
-  position: absolute;
+  position: fixed;
+  background-color: #fff;
   z-index: 4;
   top: 1rem;
   left: 1rem;
