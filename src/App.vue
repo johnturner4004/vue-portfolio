@@ -44,10 +44,8 @@ nav {
 @media (max-width: 768px) {
   .close-mobile {
     opacity: 0;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    padding-top: 4rem;
+    height: 0;
+    display: none;
   }
 
   .open-mobile {
