@@ -1,10 +1,10 @@
 <template>
   <span @click="handleClick" class="material-symbols-outlined nav__button">menu</span>
   <nav :class="{'open-mobile': showMobile, 'close-mobile': !showMobile}">
-    <router-link to="/"><span class="nav__name">John Turner</span></router-link>
-    <router-link to="/work-history"><span class="nav__link">Work History</span></router-link>
-    <router-link to="/education"><span class="nav__link">Education</span></router-link>
-    <router-link to="/about"><span class="nav__link">About</span></router-link>
+    <router-link to="/vue/"><span class="nav__name">John Turner</span></router-link>
+    <router-link to="/vue/work-history"><span class="nav__link">Work History</span></router-link>
+    <router-link to="/vue/education"><span class="nav__link">Education</span></router-link>
+    <router-link to="/vue/about"><span class="nav__link">About</span></router-link>
   </nav>
   <router-view />
 </template>
